@@ -1,0 +1,13 @@
+
+body { margin:0; font-family:Arial; background:#000; color:#fff; }
+header { padding:10px; background:#111; text-align:center; font-weight:bold; }
+input,button { width:100%; margin:5px 0; padding:10px; }
+#login { max-width:400px; margin:30px auto; }
+.hidden { display:none; }
+#content { display:flex; }
+aside { width:200px; background:#111; padding:10px; }
+main { flex:1; padding:10px; }
+ul { list-style:none; padding:0; }
+li { padding:8px; border-bottom:1px solid #333; cursor:pointer; }
+li:hover { background:#222; }
+video { width:100%; max-height:60vh; background:#000; }

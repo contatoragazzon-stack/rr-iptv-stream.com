@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RR IPTV STREAM</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="stylesheet" href="/css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+<header>RR IPTV STREAM</header>
+
+<section id="login">
+  <input id="host" placeholder="Servidor (http://ip:porta)">
+  <input id="user" placeholder="Usuário">
+  <input id="pass" placeholder="Senha">
+  <button onclick="login()">Entrar</button>
+</section>
+
+<section id="content" class="hidden">
+  <aside id="categories"></aside>
+  <main>
+    <video id="player" controls autoplay></video>
+    <ul id="channels"></ul>
+  </main>
+</section>
+
+<script src="/js/app.js"></script>
+</body>
+</html>
